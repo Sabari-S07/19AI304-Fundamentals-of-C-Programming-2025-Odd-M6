@@ -35,8 +35,6 @@ To develop a C program using the static storage class in a function with a param
 # Program:
 ```
 #include <stdio.h>
-
-// Step 3b: Function with parameter and static variable
 void display(int n) {
     static float base = 100.25;  // static variable retains its value across calls
     float sum;
